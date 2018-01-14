@@ -1,0 +1,19 @@
+{
+  "name": "aquarius",
+  "version": "1.0.0",
+  "description": "<img alt='logo' src='https://vignette.wikia.nocookie.net/blackclover/images/6/64/Aquarius.png' width='200px;'>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParallelStudio/aquarius.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParallelStudio/aquarius/issues"
+  },
+  "homepage": "https://github.com/ParallelStudio/aquarius#readme"
+}
