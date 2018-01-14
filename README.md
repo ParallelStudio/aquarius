@@ -1,4 +1,4 @@
-![logo](https://vignette.wikia.nocookie.net/blackclover/images/6/64/Aquarius.png)
+<img alt='logo' src='https://vignette.wikia.nocookie.net/blackclover/images/6/64/Aquarius.png' width='200px;'>
 
 # aquarius
 
