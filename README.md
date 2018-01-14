@@ -9,5 +9,5 @@ Fly beats.
 To run the development server:
 
 ```
-npm start dev
+$ npm start dev
 ```

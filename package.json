@@ -4,7 +4,8 @@
   "description": "<img alt='logo' src='https://vignette.wikia.nocookie.net/blackclover/images/6/64/Aquarius.png' width='200px;'>",
   "main": "app.js",
   "scripts": {
-    "dev": "node src/server/app.js"
+    "dev": "$(npm bin)/webpack --config webpack.dev.js && node src/server/app.js",
+    "build-prod": "$(npm bin)/webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/ParallelStudio/aquarius#readme",
   "devDependencies": {
-    "webpack": "3.10.0"
+    "webpack": "3.10.0",
+    "webpack-merge": "4.1.1"
   },
   "dependencies": {
     "express": "4.16.2",
