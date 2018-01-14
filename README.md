@@ -3,3 +3,11 @@
 # aquarius
 
 Fly beats.
+
+# running
+
+To run the development server:
+
+```
+npm start dev
+```
