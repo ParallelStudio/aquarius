@@ -4,7 +4,7 @@
   "description": "<img alt='logo' src='https://vignette.wikia.nocookie.net/blackclover/images/6/64/Aquarius.png' width='200px;'>",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/server/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ParallelStudio/aquarius/issues"
   },
-  "homepage": "https://github.com/ParallelStudio/aquarius#readme"
+  "homepage": "https://github.com/ParallelStudio/aquarius#readme",
+  "devDependencies": {
+    "webpack": "3.10.0"
+  },
+  "dependencies": {
+    "express": "4.16.2"
+  }
 }
