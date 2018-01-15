@@ -34,6 +34,8 @@ function setBeatClickHandlers(){
         audioItem.source.stop();
         delete audioItem.source;
         audioItem.playing = false;
+        $(`a#beat${i}`).removeClass('green');
+        $(`a#beat${i}`).addClass('red');
       }
       else {
         console.log(`clicked a#beat${i} ${audioItem.url}`);
@@ -46,6 +48,8 @@ function setBeatClickHandlers(){
         audioItem.source = source;
         audioItem.playing = true;
         source.start();
+        $(`a#beat${i}`).removeClass('red');
+        $(`a#beat${i}`).addClass('green');
       }
     });
   });

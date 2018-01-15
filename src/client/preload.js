@@ -14,12 +14,10 @@ function preloadSounds(ctx) {
 
 function fetchAndConvert(ctx){
   return url => {
-    // console.log(`fetching ${url}`);
     return fetch(new Request(url))
       .then(response => response.arrayBuffer())
       .then(buff => ctx.decodeAudioData(buff))
       .then(audioBuff => {
-        // console.log(url, audioBuff);
         return { url: url, buffer: audioBuff };
       });
     };
