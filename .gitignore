@@ -1,3 +1,5 @@
+*.woff
+*.woff2
 node_modules
 package-lock.json
 static/bundle.js

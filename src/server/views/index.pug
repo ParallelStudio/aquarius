@@ -1,7 +1,18 @@
+doctype html
 html
   head
     title|aquarius
     script(src='/bundle.js')
-  body
-    h1
-      | aquarius
+    link(rel='stylesheet', href='/client.css')
+  body(class='black white-text')
+    div(class='row center')
+      h1
+        | aquarius
+    div(class='container')
+      div(class='row')
+        div(class='col m4 center')
+          |left
+        div(class='col m4 center')
+          |mid
+        div(class='col m4 center')
+          |right
