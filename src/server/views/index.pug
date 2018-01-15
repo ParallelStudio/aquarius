@@ -5,7 +5,6 @@ html
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css')
     script(src='https://code.jquery.com/jquery-3.2.1.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js')
-    script(src='/bundle.js')
     link(rel='stylesheet', href='/client.css')
   body(class='black white-text')
     div(class='container')
@@ -33,11 +32,12 @@ html
             |
         div(class='col s1 center')
         div(class='col s1 center')
-          a(class='waves-effect waves-dark btn-floating red lighten-3 black-text a-disc')
+          a#beat1(class='waves-effect waves-dark btn-floating red lighten-3 black-text a-disc')
             |
-          a(class='waves-effect waves-dark btn-floating red lighten-3 black-text a-disc')
+          a#beat2(class='waves-effect waves-dark btn-floating red lighten-3 black-text a-disc')
             |
-          a(class='waves-effect waves-dark btn-floating red lighten-3 black-text a-disc')
+          a#beat3(class='waves-effect waves-dark btn-floating red lighten-3 black-text a-disc')
             |
-          a(class='waves-effect waves-dark btn-floating red lighten-3 black-text a-disc')
+          a#beat4(class='waves-effect waves-dark btn-floating red lighten-3 black-text a-disc')
             |
+        script(src='/bundle.js')
