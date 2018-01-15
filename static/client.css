@@ -1,0 +1,17 @@
+.a-pad {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 125px;
+}
+
+.a-logo {
+  filter: invert(100%);
+  width: 65px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: middle
+}
+
+.a-flip {
+  transform: scaleX(-1);
+}

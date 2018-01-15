@@ -2,16 +2,32 @@ doctype html
 html
   head
     title|aquarius
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css')
+    script(src='https://code.jquery.com/jquery-3.2.1.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js')
     script(src='/bundle.js')
     link(rel='stylesheet', href='/client.css')
   body(class='black white-text')
-    div(class='row center')
-      h1
-        | aquarius
     div(class='container')
+      div(class='row center valign-wrapper')
+        div(class='col s12')
+          h2
+            img(src='/aquarius.png', class='a-logo')
+            | aquarius
+            img(src='/aquarius.png', class='a-logo a-flip')
       div(class='row')
         div(class='col m4 center')
-          |left
+          a(class='waves-effect waves-dark btn-large red lighten-5 black-text a-pad')
+            |
+          br
+          a(class='waves-effect waves-dark btn-large red lighten-5 black-text a-pad')
+            |
+          br
+          a(class='waves-effect waves-dark btn-large red lighten-5 black-text a-pad')
+            |
+          br
+          a(class='waves-effect waves-dark btn-large red lighten-5 black-text a-pad')
+            |
         div(class='col m4 center')
           |mid
         div(class='col m4 center')
